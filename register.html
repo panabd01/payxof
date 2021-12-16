@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="themes/goespay/assets/img/picto.png">
+<link rel="icon" href="themes/goespay/assets/img/picto.png">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/1.11.3/css/dataTables.bootstrap5.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.9/css/responsive.dataTables.min.css">
+<link rel="stylesheet" href="themes/goespay/assets/css/main.css">
+<title>Create account - GOES Pay</title>
+<link rel="stylesheet" href="plugins/planetadeleste/swal/assets/vendor/sweetalert/" />
+</head>
+<body class="mama ">
+<main>
+<div class="container py-lg-5">
+<div class="row align-items-center py-lg-5">
+<div class="align-items-center d-lg-none">
+<div class="text-center">
+<a href="index.html"><img src="themes/goespay/assets/img/Payxof PngSvg.png" class="img-fluid mb-5 w-75"></a>
+</div>
+</div>
+<div class="col-lg-5 text-center py-lg-5 text-lg-start">
+<h1 class="h1 mb-3 display-4">Create account</h1>
+<form method="POST" action="register.html" accept-charset="UTF-8" data-request="onRegister"><input name="_session_key" type="hidden" value="mptSQSE6YACkbH6hHv4UfXo6f9u5uKMLegmkxCGR"><input name="_token" type="hidden" value="pjTUiZObsnbUCsuPTGF4i6m84WVVrwpbV9URTBLL">
+<input name="parrain" id="parrain" type="hidden" value="0">
+<div class="form-floating">
+<input name="surname" type="text" class="form-control" id="surname" placeholder="Bio John" required>
+<label for="floatingInput">First Name</label>
+</div>
+<div class="form-floating">
+<input name="name" type="text" class="form-control" id="registerName" placeholder="ADAM" required>
+<label for="floatingInput">Last Name</label>
+</div>
+<div class="form-floating">
+<select name="country" class="form-control" id="country" required>
+<option value="">Choose from the list</option>
+<option value="AF">Afghanistan</option>
+<option value="AX">Aland Islands</option>
+<option value="AL">Albania</option>
+<option value="DZ">Algeria</option>
+<option value="AS">American Samoa</option>
+<option value="AD">Andorra</option>
+<option value="AO">Angola</option>
+<option value="AI">Anguilla</option>
+<option value="AQ">Antarctica</option>
+<option value="AG">Antigua and Barbuda</option>
+<option value="AR">Argentina</option>
+<option value="AM">Armenia</option>
+<option value="AW">Aruba</option>
+<option value="AU">Australia</option>
+<option value="AT">Austria</option>
+<option value="AZ">Azerbaijan</option>
+<option value="BS">Bahamas</option>
+<option value="BH">Bahrain</option>
+<option value="BD">Bangladesh</option>
+<option value="BB">Barbados</option>
+<option value="BY">Belarus</option>
+<option value="BE">Belgium</option>
+<option value="BZ">Belize</option>
+<option value="BJ">Benin</option>
+<option value="BM">Bermuda</option>
+<option value="BT">Bhutan</option>
+<option value="BO">Bolivia</option>
+<option value="BQ">Bonaire, Sint Eustatius and Saba</option>
+<option value="BA">Bosnia and Herzegovina</option>
+<option value="BW">Botswana</option>
+<option value="BV">Bouvet Island</option>
+<option value="BR">Brazil</option>
+<option value="IO">British Indian Ocean Territory</option>
+<option value="BN">Brunei Darussalam</option>
+<option value="BG">Bulgaria</option>
+<option value="BF">Burkina Faso</option>
+<option value="BI">Burundi</option>
+<option value="KH">Cambodia</option>
+<option value="CM">Cameroon</option>
+<option value="CA">Canada</option>
+<option value="CV">Cape Verde</option>
+<option value="KY">Cayman Islands</option>
+<option value="CF">Central African Republic</option>
+<option value="TD">Chad</option>
+<option value="CL">Chile</option>
+<option value="CN">China</option>
+<option value="CX">Christmas Island</option>
+<option value="CC">Cocos (Keeling) Islands</option>
+<option value="CO">Colombia</option>
+<option value="KM">Comoros</option>
+<option value="CG">Congo</option>
+ <option value="CD">Congo, Democratic Republic of the Congo</option>
+<option value="CK">Cook Islands</option>
+<option value="CR">Costa Rica</option>
+<option value="CI">Cote D&#039;Ivoire</option>
+<option value="HR">Croatia</option>
+<option value="CU">Cuba</option>
+<option value="CW">Curacao</option>
+<option value="CY">Cyprus</option>
+<option value="CZ">Czech Republic</option>
+<option value="DK">Denmark</option>
+<option value="DJ">Djibouti</option>
+<option value="DM">Dominica</option>
+<option value="DO">Dominican Republic</option>
+<option value="EC">Ecuador</option>
+<option value="EG">Egypt</option>
+<option value="SV">El Salvador</option>
+<option value="GQ">Equatorial Guinea</option>
+<option value="ER">Eritrea</option>
+<option value="EE">Estonia</option>
+<option value="ET">Ethiopia</option>
+<option value="FK">Falkland Islands (Malvinas)</option>
+<option value="FO">Faroe Islands</option>
+<option value="FJ">Fiji</option>
+<option value="FI">Finland</option>
+<option value="FR">France</option>
+<option value="GF">French Guiana</option>
+<option value="PF">French Polynesia</option>
+<option value="TF">French Southern Territories</option>
+<option value="GA">Gabon</option>
+<option value="GM">Gambia</option>
+<option value="GE">Georgia</option>
+<option value="DE">Germany</option>
+<option value="GH">Ghana</option>
+<option value="GI">Gibraltar</option>
+<option value="GR">Greece</option>
+<option value="GL">Greenland</option>
+<option value="GD">Grenada</option>
+<option value="GP">Guadeloupe</option>
+<option value="GU">Guam</option>
+<option value="GT">Guatemala</option>
+<option value="GG">Guernsey</option>
+ <option value="GN">Guinea</option>
+<option value="GW">Guinea-Bissau</option>
+<option value="GY">Guyana</option>
+<option value="HT">Haiti</option>
+<option value="HM">Heard Island and Mcdonald Islands</option>
+<option value="VA">Holy See (Vatican City State)</option>
+<option value="HN">Honduras</option>
+<option value="HK">Hong Kong</option>
+<option value="HU">Hungary</option>
+<option value="IS">Iceland</option>
+<option value="IN">India</option>
+<option value="ID">Indonesia</option>
+<option value="IR">Iran, Islamic Republic of</option>
+<option value="IQ">Iraq</option>
+<option value="IE">Ireland</option>
+<option value="IM">Isle of Man</option>
+<option value="IL">Israel</option>
+<option value="IT">Italy</option>
+<option value="JM">Jamaica</option>
+<option value="JP">Japan</option>
+<option value="JE">Jersey</option>
+<option value="JO">Jordan</option>
+<option value="KZ">Kazakhstan</option>
+<option value="KE">Kenya</option>
+<option value="KI">Kiribati</option>
+<option value="KP">Korea, Democratic People&#039;s Republic of</option>
+<option value="KR">Korea, Republic of</option>
+<option value="XK">Kosovo</option>
+<option value="KW">Kuwait</option>
+<option value="KG">Kyrgyzstan</option>
+<option value="LA">Lao People&#039;s Democratic Republic</option>
+<option value="LV">Latvia</option>
+<option value="LB">Lebanon</option>
+<option value="LS">Lesotho</option>
+<option value="LR">Liberia</option>
+<option value="LY">Libyan Arab Jamahiriya</option>
+<option value="LI">Liechtenstein</option>
+<option value="LT">Lithuania</option>
+<option value="LU">Luxembourg</option>
+<option value="MO">Macao</option>
+<option value="MK">Macedonia, the Former Yugoslav Republic of</option>
+<option value="MG">Madagascar</option>
+<option value="MW">Malawi</option>
+<option value="MY">Malaysia</option>
+<option value="MV">Maldives</option>
+<option value="ML">Mali</option>
+<option value="MT">Malta</option>
+<option value="MH">Marshall Islands</option>
+<option value="MQ">Martinique</option>
+<option value="MR">Mauritania</option>
+<option value="MU">Mauritius</option>
+<option value="YT">Mayotte</option>
+<option value="MX">Mexico</option>
+<option value="FM">Micronesia, Federated States of</option>
+<option value="MD">Moldova, Republic of</option>
+<option value="MC">Monaco</option>
+<option value="MN">Mongolia</option>
+<option value="ME">Montenegro</option>
+<option value="MS">Montserrat</option>
+<option value="MA">Morocco</option>
+<option value="MZ">Mozambique</option>
+<option value="MM">Myanmar</option>
+<option value="NA">Namibia</option>
+<option value="NR">Nauru</option>
+<option value="NP">Nepal</option>
+<option value="NL">Netherlands</option>
+<option value="AN">Netherlands Antilles</option>
+<option value="NC">New Caledonia</option>
+<option value="NZ">New Zealand</option>
+<option value="NI">Nicaragua</option>
+<option value="NE">Niger</option>
+<option value="NG">Nigeria</option>
+<option value="NU">Niue</option>
+<option value="NF">Norfolk Island</option>
+<option value="MP">Northern Mariana Islands</option>
+<option value="NO">Norway</option>
+<option value="OM">Oman</option>
+<option value="PK">Pakistan</option>
+<option value="PW">Palau</option>
+<option value="PS">Palestinian Territory, Occupied</option>
+<option value="PA">Panama</option>
+<option value="PG">Papua New Guinea</option>
+ <option value="PY">Paraguay</option>
+<option value="PE">Peru</option>
+<option value="PH">Philippines</option>
+<option value="PN">Pitcairn</option>
+<option value="PL">Poland</option>
+<option value="PT">Portugal</option>
+<option value="PR">Puerto Rico</option>
+<option value="QA">Qatar</option>
+<option value="RE">Reunion</option>
+<option value="RO">Romania</option>
+<option value="RU">Russian Federation</option>
+<option value="RW">Rwanda</option>
+<option value="BL">Saint Barthelemy</option>
+<option value="SH">Saint Helena</option>
+<option value="KN">Saint Kitts and Nevis</option>
+<option value="LC">Saint Lucia</option>
+<option value="MF">Saint Martin</option>
+<option value="PM">Saint Pierre and Miquelon</option>
+<option value="VC">Saint Vincent and the Grenadines</option>
+<option value="WS">Samoa</option>
+<option value="SM">San Marino</option>
+<option value="ST">Sao Tome and Principe</option>
+<option value="SA">Saudi Arabia</option>
+<option value="SN">Senegal</option>
+<option value="RS">Serbia</option>
+<option value="CS">Serbia and Montenegro</option>
+<option value="SC">Seychelles</option>
+<option value="SL">Sierra Leone</option>
+<option value="SG">Singapore</option>
+<option value="SX">Sint Maarten</option>
+<option value="SK">Slovakia</option>
+<option value="SI">Slovenia</option>
+<option value="SB">Solomon Islands</option>
+<option value="SO">Somalia</option>
+<option value="ZA">South Africa</option>
+<option value="GS">South Georgia and the South Sandwich Islands</option>
+<option value="SS">South Sudan</option>
+<option value="ES">Spain</option>
+<option value="LK">Sri Lanka</option>
+<option value="SD">Sudan</option>
+<option value="SR">Suriname</option>
+<option value="SJ">Svalbard and Jan Mayen</option>
+<option value="SZ">Swaziland</option>
+<option value="SE">Sweden</option>
+<option value="CH">Switzerland</option>
+<option value="SY">Syrian Arab Republic</option>
+<option value="TW">Taiwan, Province of China</option>
+<option value="TJ">Tajikistan</option>
+<option value="TZ">Tanzania, United Republic of</option>
+<option value="TH">Thailand</option>
+<option value="TL">Timor-Leste</option>
+<option value="TG">Togo</option>
+<option value="TK">Tokelau</option>
+<option value="TO">Tonga</option>
+<option value="TT">Trinidad and Tobago</option>
+<option value="TN">Tunisia</option>
+<option value="TR">Turkey</option>
+<option value="TM">Turkmenistan</option>
+<option value="TC">Turks and Caicos Islands</option>
+<option value="TV">Tuvalu</option>
+<option value="UG">Uganda</option>
+<option value="UA">Ukraine</option>
+<option value="AE">United Arab Emirates</option>
+<option value="GB">United Kingdom</option>
+<option value="US">United States</option>
+<option value="UM">United States Minor Outlying Islands</option>
+<option value="UY">Uruguay</option>
+<option value="UZ">Uzbekistan</option>
+<option value="VU">Vanuatu</option>
+<option value="VE">Venezuela</option>
+<option value="VN">Viet Nam</option>
+<option value="VG">Virgin Islands, British</option>
+<option value="VI">Virgin Islands, U.s.</option>
+<option value="WF">Wallis and Futuna</option>
+<option value="EH">Western Sahara</option>
+<option value="YE">Yemen</option>
+<option value="ZM">Zambia</option>
+<option value="ZW">Zimbabwe</option>
+</select>
+<label for="floatingInput">Country</label>
+</div>
+<div class="form-floating">
+<input type="text" name="city" class="form-control" id="city" placeholder="Cotonou" required>
+<label for="floatingInput">City</label>
+</div>
+<div class="form-floating">
+<input type="number" name="phone" class="form-control num" id="phone" value="+234 " required>
+<label for="floatingInput">Phone number (Preferably whatsapp - With prefix)</label>
+</div>
+<div class="form-floating">
+<input name="binance" type="text" class="form-control" id="binance" placeholder="nickname">
+<label for="floatingInput">Binance Nickname</label>
+</div>
+<div class="form-floating">
+<input name="email" type="email" class="form-control" id="registerEmail" placeholder="name@example.com" required>
+<label for="floatingInput">Email address</label>
+</div>
+<div class="form-floating">
+<input name="password" type="password" class="form-control" id="registerPassword" placeholder="Password" required>
+<label for="floatingPassword">Password</label>
+</div>
+<button class="btn btn-primary mt-4" type="submit">Create account</button>
+</form>
+<div class="mt-5 pb-5 text-center text-lg-end">
+<a href="login.html" class="btn btn-secondary">Sign in</a>
+<a href="forgot.html" class="btn btn-dark">Forgot password ?</a>
+</div>
+</div>
+<div class="col-lg-7 align-items-center ps-5 d-none d-lg-flex">
+<div class="mx-5 px-5 text-center">
+<a href="index.html"><img src="themes/goespay/assets/img/offpay.png" alt="" class="img-fluid"></a>
+</div>
+</div>
+</div>
+</div>
+</main>
+<div class="wa">
+<a href="https://wa.me/22962965500"><img src="themes/goespay/assets/img/wa.png"></a>
+</div>
+<footer class="fixed-bottom" style="z-index: 1029;">
+<div class="container">
+<div class="row align-items-center">
+<div class="col-lg-6 text-center text-lg-start">&copy; Copyright - 2021 - PAYXOF INDUSTRIES SARL</div>
+<div class="col-lg-6">
+<ul class="nav justify-content-center justify-content-lg-end">
+<li class="nav-item">
+<a class="nav-link" href="register.html">Terms and conditions</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="register.html">Privacy</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinMarquee.js"></script><div id="coinmarketcap-widget-marquee" coins="1,1027,825,1839,5426,2010,74,3890,693,7288" currency="USD" theme="light" transparent="true" show-symbol-logo="true"></div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+<script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.11.3/js/dataTables.bootstrap5.min.js"></script>
+<script src="https://cdn.datatables.net/responsive/2.2.9/js/dataTables.responsive.min.js"></script>
+<script src="themes/goespay/assets/js/main.js"></script>
+<script>
+        $(document).ready( function () {
+            $('table').DataTable({
+                responsive: true,
+                "language": {
+                    "paginate": {
+                        "previous": "<",
+                        "next": ">"
+                    }
+                }
+            });
+
+            $('#users').DataTable({
+                destroy: true,
+                "pageLength": 50,
+                order: [[2, 'desc']]
+            });
+
+            $('#purchases').DataTable({
+                destroy: true,
+                "pageLength": 50,
+                order: [[5, 'desc']]
+            });
+            
+                    });
+
+        $('#selector').IconSelectBox(true);
+        
+        (function() {
+            var copyButton = document.querySelector('.copy button');
+            var copyInput = document.querySelector('.copy input');
+            copyButton.addEventListener('click', function(e) {
+                e.preventDefault();
+                var text = copyInput.select();
+                document.execCommand('copy');
+            });
+
+            copyInput.addEventListener('click', function() {
+                this.select();
+            });
+        })();
+    </script>
+<script src="plugins/planetadeleste/swal/assets/vendor/sweetalert/sweetalert.min.js"></script>
+<script src="plugins/planetadeleste/swal/assets/js/flash-swal.js"></script>
+<script>
+    document.swalFlash = false;
+    document.swalOptions = [];
+    document.swalGlobalOptions = {"ajaxFlashMessages":{"theme":"default","use_default_options":"0","allowEscapeKey":true,"allowOutsideClick":true,"showCancelButton":true,"showConfirmButton":true,"closeOnConfirm":true,"closeOnCancel":true,"animation":true,"html":false,"customClass":"","confirmButtonText":"Ok","confirmButtonColor":"#AEDEF4","cancelButtonText":"Annuler","imageUrl":"","imageSize":"80x80","timer":0,"inputType":"text","inputPlaceholder":"","inputValue":""}};
+</script> <script src="modules/system/assets/js/framework.js"></script>
+<script src="modules/system/assets/js/framework.extras.js"></script>
+<link rel="stylesheet" property="stylesheet" href="modules/system/assets/css/framework.extras.css">
+</body>
+</html>
